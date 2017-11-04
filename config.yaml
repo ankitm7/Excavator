@@ -1,0 +1,13 @@
+source:
+ # link: https://www.flipkart.com/samsung-galaxy-max-black-32-gb/p/itmevmrqd5n5ncfa
+ # class: source_flipkart.SourceFlipKart
+  link: https://www.amazon.in/gp/product/B01LX0KR0L/ref=s9u_simh_gw_i3?ie=UTF8&pd_rd_i=B01LX0KR0L&pd_rd_r=8e16dd8c-c15a-11e7-a008-71ec069f688d&pd_rd_w=AIZsQ&pd_rd_wg=5nVho&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=&pf_rd_r=SKE5QC9YQ5RYZ9ZQKB8V&pf_rd_t=36701&pf_rd_p=a66bc199-b270-44de-9fcc-5cf0a06a7727&pf_rd_i=desktop
+  class: source_amazon.SourceAmazon
+output:
+  host: 127.0.0.1
+  port: 9200
+  dbname: elastic-search
+
+
+# in seconds
+interval: 3600
